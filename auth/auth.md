@@ -23,7 +23,7 @@ import { createTokenPayload } from 'zero/auth'
 
 The Authenticator class includes the following methods:
 
-**`Authenticator.configureStrategy()`** 
+1. **`Authenticator.configureStrategy()`** 
 
 This method configure authentication by JWT tokens.
 
@@ -34,7 +34,7 @@ The method accepts two parameters
 
 Returns `void`.
 
-**`Authenticator.initialize()`**
+2. **`Authenticator.initialize()`**
 
 Initializes the authentication middleware. The method accepts one parameter named below.
 
@@ -42,7 +42,7 @@ Initializes the authentication middleware. The method accepts one parameter name
 
 Returns `void`.
 
-**`Authenticator.authenticate()`**
+3. **`Authenticator.authenticate()`**
 
 Returns a JWT authentication middleware that allows only users with valid JWT tokens to access the system. 
 
@@ -51,7 +51,8 @@ Parameters:
 
 Returns: `passport.Authenticator.authenticate` - A route handler middleware.
 
-**`Authenticator.restrictAccess()`**
+4. **`Authenticator.restrictAccess()`**
+
 An authorization control method that allows only users that meet a specific condition to access the part of the system that requires restricted access. The access condition is evaluated by a developer-defined utility callback fuction that returns a `boolean` value. 
 
 Parameters:
@@ -60,7 +61,8 @@ Parameters:
 Returns:
 * `(req: Request, res: Response, next: NextFunction) => void`: An Express request handler middleware.
 
-**`Authenticator.createTokenPayload()`**
+5. **`Authenticator.createTokenPayload()`**
+
 Accepts a user object and creates a minimised object with important but less sensitive user data. The user data returned is used in another authentication apps as token payload. 
 
 Parameters:
