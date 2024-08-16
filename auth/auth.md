@@ -1,7 +1,7 @@
 # auth module
 The auth module includes an Authenticator class. The class encapsulates methods for configuration authentication strategy, initializing authentication, controlling authorization, and other methods related to user authentication and authorization.
 
-The module exports the following.
+The module exports the following:
 
 `Authenticator`: a class.
 `authenticator`: an instance of the authenticator class.
@@ -23,7 +23,7 @@ import { createTokenPayload } from 'zero/auth'
 
 The Authenticator class includes the following methods:
 
-1. **`Authenticator.configureStrategy()`** 
+## 1. `Authenticator.configureStrategy()`
 
 This method configures authentication by JWT tokens.
 
@@ -34,7 +34,7 @@ The method accepts two parameters
 
 Returns `void`.
 
-2. **`Authenticator.initialize()`**
+## 2. `Authenticator.initialize()`
 
 Initializes the authentication middleware. The method accepts one parameter named below.
 
@@ -42,7 +42,7 @@ Initializes the authentication middleware. The method accepts one parameter name
 
 Returns `void`.
 
-3. **`Authenticator.authenticate()`**
+## 3. `Authenticator.authenticate()`
 
 Returns a JWT authentication middleware that allows only users with valid JWT tokens to access the system. 
 
@@ -51,7 +51,7 @@ Parameters:
 
 Returns: `passport.Authenticator.authenticate` - A route handler middleware.
 
-4. **`Authenticator.restrictAccess()`**
+## 4. `Authenticator.restrictAccess()`
 
 An authorization control method that allows only users who meet a specific condition to access the part of the system that requires restricted access. The access condition is evaluated by a developer-defined utility callback function that returns a `boolean` value. 
 
@@ -61,7 +61,7 @@ Parameters:
 Returns:
 * `(req: Request, res: Response, next: NextFunction) => void`: An Express request handler middleware.
 
-5. **`Authenticator.createTokenPayload()`**
+## 5. `Authenticator.createTokenPayload()`
 
 Accepts a user object and creates a minimized object with important but less sensitive user data. The user data returned is used in other authentication apps as token payload. 
 
