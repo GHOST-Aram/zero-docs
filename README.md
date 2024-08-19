@@ -8,3 +8,4 @@ This repository contains documentations of all modules in the zero library. Zero
 5. The [GenericDataAccess](./bases/generic-data-access.md) class
 6. The [ConnectionPool](./db/connection.-pool.md) class
 7. The [DB](./db/db.md) class
+8. The [id](./db/id.md) module
