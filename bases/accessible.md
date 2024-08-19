@@ -4,7 +4,7 @@ The Accessible interface defines the required methods that every data access cla
 
 The interface describes the following methods:
 
-### 1.  `createNew()`
+### 1.  `async createNew()`
 
 Paramters:
 * `data`: `any` - a object for creating a new document in the DB
@@ -12,7 +12,7 @@ Paramters:
 Returns: 
 * `Promise<HydratedDocument<any>>`
 
-### 2. `findByReferenceId()`
+### 2. `async findByReferenceId()`
 
 Parameters:
 * `refId`: `string`
@@ -20,7 +20,7 @@ Parameters:
 Returns:
 * `Promise<HydratedDocument<any> | null>`
 
-### 3. `findBySearchDocument()`
+### 3. `async findBySearchDocument()`
 
 Parameters:
 
@@ -30,7 +30,7 @@ Parameters:
 Returns:
 * `Promise<HydratedDocument<any>[]>`
 
-### 4. `findExistingDocument()`
+### 4. `async findExistingDocument()`
 
 Parameters:
 
@@ -39,7 +39,7 @@ Parameters:
 Returns:
 * `Promise<HydratedDocument<any>>`
 
-### 5. `findWithPagination()`
+### 5. `async findWithPagination()`
 
 Parameters:
 * `paginator`: [`Paginator`](../interfaces/paginator.md)
@@ -47,7 +47,7 @@ Parameters:
 Returns:
 * `Promise<HydratedDocument<any>[]>`
 
-### 6. `findByIdAndUpdate()`
+### 6. `async findByIdAndUpdate()`
 
 Parameters:
 
@@ -57,7 +57,7 @@ Parameters:
 Returns: 
 * `Promise<HydratedDocument<any> | null>`
 
-### 7. `findByIdAndDelete()`
+### 7. `async findByIdAndDelete()`
 
 Parameters:
 
@@ -66,7 +66,7 @@ Parameters:
 Returns:
 * `Promise<HydratedDocument<any> | null>`
 
-### 8. `findByCreatorId()`
+### 8. `async findByCreatorId()`
 
 Parameters:
 
