@@ -10,3 +10,6 @@ This repository contains documentations of all modules in the zero library. Zero
 7. The [DB](./db/db.md) class
 8. The [id](./db/id.md) module
 9. The [Document](./document/document.md) class
+10. The [HttpResponse](./http/http-response.md) class
+11. The [HTTPErrors](./http/http-errors.md) class
+12. The [Paginator](./interfaces/paginator.md) class
