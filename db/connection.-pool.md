@@ -2,6 +2,17 @@
 
 The `ConnectionPool` pool class creates and manages a mongoose [connection pool](https://mongoosejs.com/docs/connections.html). The class provides methods for getting the intial connection and swtiching between different databases in the same cluster.
 
+The class can be imported as follows:
+```typescript
+
+import { ConnectionPool } 'zero/db'
+import ConnectionPool from 'zero/db/connection'
+
+```
+
+*NPM Dependencies*
+* `mongoose`
+
 The `ConnectionPool` class implements a constructor with one parameter described below
 
 * `initialDbUri`: `string` -  Mongodb connection string

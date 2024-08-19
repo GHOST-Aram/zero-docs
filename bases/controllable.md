@@ -1,6 +1,17 @@
 ## interface `Controllable`
 The Controllable interface defines the required methods that every Controller class in the system must implement. The methods in the Controllable interface follow the [`Express` Route handler method](https://expressjs.com/en/guide/routing.html) signatures. All methods in this interface are asynchronous. 
 
+The interface can be imported as follows:
+
+```typescript
+
+import  { Controllable } from 'zero/bases'
+
+```
+
+*NPM Dependencies*
+* `express`
+
 ### 1. `addNew()`
 Parameters:
 * `domainData`: `DomainData` - An object of the [DomainData](../interfaces/domain-data.ts) interface.

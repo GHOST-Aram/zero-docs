@@ -6,6 +6,18 @@ The class declares one public field below that is initilized in the class `const
 
 * `microserviceName`: `string` -  the name of the app that depends on this class.
 
+The class can be imported as follows:
+
+```javascript
+
+import { HttpResponse } from 'zero/http'
+
+```
+
+*NPM Dependencies*
+* `mongoose`
+* `express`
+
 The following methods are implemented in the `HttpResponse` class:
 
 ### 1. `respondWithMethodNotAllowed()`

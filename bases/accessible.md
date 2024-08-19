@@ -2,6 +2,17 @@
 
 The Accessible interface defines the required methods that every data access class in the system must implement. All methods in this interface are asynchronous.  
 
+The interface can be imported as follows:
+
+```typescript
+
+import  { Accessible } from 'zero/bases'
+
+```
+
+*NPM Dependencies*
+* `mongoose`
+
 The interface describes the following methods:
 
 ### 1.  `async createNew()`

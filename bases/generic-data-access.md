@@ -1,6 +1,17 @@
 ## class `GenericDataAccess`
 The `GenericDataAccess` class implements the [`Accessible`](./accessible.md) interface. This class is used as a data access layer in apps that require database access and operations. 
 
+The class can be imported as follows:
+
+```typescript
+
+import  { GenericDataAccess } from 'zero/bases'
+
+```
+
+*NPM Dependencies*
+* `mongoose`
+
 The `GenericDataAccess` class takes two generic type parameters listed below:
 
 * `T extends Model<any>` -  Any type that extends the type [`mongoose.Model`](https://mongoosejs.com/docs/api/model.html).

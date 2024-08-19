@@ -1,6 +1,18 @@
 ## class `GenericController`
 The `GenericController` class implements the [`Controllable`](./controllable.md) interface and extends the [`HttpResponse`](../http/http-response.md) class. The class accepts a generic type `T` that extends or implements the [`Accessible`](./accessible.md) interface.
 
+
+The class can be imported as follows:
+
+```typescript
+
+import  { GenericController } from 'zero/bases'
+
+```
+
+*NPM Dependencies*
+* `express`
+
 The `GenericController` class methods are used to process requests and send responses. The class implements a `constructor` method with two parameters. 
 
 **Constructor Parameters**
