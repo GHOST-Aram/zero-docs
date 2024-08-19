@@ -1,4 +1,4 @@
-# auth module
+# class `Authenticator`
 The auth module includes an Authenticator class. The class encapsulates methods for configuration authentication strategy, initializing authentication, controlling authorization, and other methods related to user authentication and authorization.
 
 The module exports the following:
