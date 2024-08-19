@@ -4,3 +4,5 @@ This repository contains documentations of all modules in the zero library. Zero
 1. [auth](./auth/auth.md)
 2. [The Accessible interface](./bases/accessible.md)
 3. [The Controllable interface](./bases/controllable.md)
+4. [The GenericController class](./bases/generic-controller.md)
+5. [The GenericDataAccess class](./bases/generic-data-access.md)
