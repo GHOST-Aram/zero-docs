@@ -6,4 +6,5 @@ This repository contains documentations of all modules in the zero library. Zero
 3. The [Controllable](./bases/controllable.md) interface
 4. The [GenericController](./bases/generic-controller.md) class
 5. The [GenericDataAccess](./bases/generic-data-access.md) class
-5. The [ConnectionPool](./db/connection.-pool.md) class
+6. The [ConnectionPool](./db/connection.-pool.md) class
+7. The [DB](./db/db.md) class
