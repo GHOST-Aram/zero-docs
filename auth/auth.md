@@ -1,10 +1,10 @@
-# auth module
+# class `Authenticator`
 The auth module includes an Authenticator class. The class encapsulates methods for configuration authentication strategy, initializing authentication, controlling authorization, and other methods related to user authentication and authorization.
 
 The module exports the following:
 
-`Authenticator`: a class.
-`authenticator`: an instance of the authenticator class.
+* `Authenticator`: a class.
+* `authenticator`: an instance of the authenticator class.
 
 The exports can be imported as follows:
 ```typescript
