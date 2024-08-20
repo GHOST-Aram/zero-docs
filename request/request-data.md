@@ -7,7 +7,7 @@ The function can be imported as follows:
 
 ```typescript
 
-import { getDataFromRequest } from 'zero/request'
+import { getDataFromRequest } from 'zero/request/request-data'
 
 ```
 
