@@ -17,4 +17,4 @@ import { GhostRouter } from 'zero/routing'
 Follow the links below to learn more about the individula modules
 
 * [`AppRouter`](../interfaces/app-router.md) interface
-* [`GhostRouter`]()
+* [`GhostRouter`](router.md)
