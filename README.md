@@ -19,4 +19,6 @@ This repository contains documentations of all modules in the zero library. Zero
 - The [RequestData] interface
 - The [request](./request/request.md) module
 - The [request-data](./request/request-data.md) module
+- The [ResponseAssertion](./testing/response-assetion.md) class
 - The [routing](./routing/routing.md) module
+- The [testing](./testing/testing.md) module
