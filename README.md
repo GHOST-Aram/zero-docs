@@ -1,24 +1,26 @@
 # Documentation for Zero Library
 This repository contains documentations of all modules in the zero library. Zero is a custom backend development library build on Express and other npm modules. Its goal is to make development of backend apps easy and quick with minimal repetetive code. The library includes the following modules.
 
-- The [Accessible](./bases/accessible.md) interface
-- The [AppRouter](./interfaces/app-router.md) interface
-- The [Authenticator](./auth/auth.md) class
-- The [ConnectionPool](./db/connection.-pool.md) class
-- The [Controllable](./bases/controllable.md) interface
-- The [DB](./db/db.md) class
-- The [Document](./document/document.md) class
-- The [id](./db/id.md) module
-- The [GenericController](./bases/generic-controller.md) class
-- The [GenericDataAccess](./bases/generic-data-access.md) class
-- The [GhostRouter](./routing/router.md) class
-- The [HTTPErrors](./http/http-errors.md) class
-- The [HttpResponse](./http/http-response.md) class
-- The [Paginator](./interfaces/paginator.md) interface
-- The [QueryString](./request/query-string.md   ) class
-- The [RequestData] interface
-- The [request](./request/request.md) module
-- The [request-data](./request/request-data.md) module
-- The [ResponseAssertion](./testing/response-assetion.md) class
-- The [routing](./routing/routing.md) module
-- The [testing](./testing/testing.md) module
+- [Accessible](./bases/accessible.md) interface
+- [AppRouter](./interfaces/app-router.md) interface
+- [Authenticator](./auth/auth.md) class
+- [ConnectionPool](./db/connection.-pool.md) class
+- [Controllable](./bases/controllable.md) interface
+- [DB](./db/db.md) class
+- [Document](./document/document.md) class
+- [id](./db/id.md) module
+- [FileUploader](./uploads/file-uploader.md) class
+- [GenericController](./bases/generic-controller.md) class
+- [GenericDataAccess](./bases/generic-data-access.md) class
+- [GhostRouter](./routing/router.md) class
+- [HTTPErrors](./http/http-errors.md) class
+- [HttpResponse](./http/http-response.md) class
+- [Paginator](./interfaces/paginator.md) interface
+- [QueryString](./request/query-string.md   ) class
+- [RequestData] interface
+- [request](./request/request.md) module
+- [request-data](./request/request-data.md) module
+- [ResponseAssertion](./testing/response-assetion.md) class
+- [routing](./routing/routing.md) module
+- [testing](./testing/testing.md) module
+- [uploads](./uploads/uploads.md) module
