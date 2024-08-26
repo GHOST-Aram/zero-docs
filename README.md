@@ -10,6 +10,7 @@ This repository contains documentations of all modules in the zero library. Zero
 - [Document](./document/document.md) class
 - [DomainData](./interfaces/domain-data.md) interface
 - [id](./db/id.md) module
+- [FileError](./interfaces/file-error.md) interface
 - [FileUploader](./uploads/file-uploader.md) class
 - [GenericController](./bases/generic-controller.md) class
 - [GenericDataAccess](./bases/generic-data-access.md) class
