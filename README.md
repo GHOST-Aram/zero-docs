@@ -29,4 +29,6 @@ This repository contains documentations of all modules in the zero library. Zero
 - [UpdateData](./interfaces/update-data.md) interface
 - [uploads](./uploads/uploads.md) module
 - [UserGroup](./interfaces/user-group.md) interface
+- [ValidationOption](./interfaces/validation-option.md)
+- [Validator](./validation/validator.md) class
 - [ZeroUser](./interfaces/zero-user.md) interface
