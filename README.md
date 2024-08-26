@@ -8,6 +8,7 @@ This repository contains documentations of all modules in the zero library. Zero
 - [Controllable](./bases/controllable.md) interface
 - [DB](./db/db.md) class
 - [Document](./document/document.md) class
+- [DomainData](./interfaces/domain-data.md) interface
 - [id](./db/id.md) module
 - [FileUploader](./uploads/file-uploader.md) class
 - [GenericController](./bases/generic-controller.md) class
@@ -23,4 +24,8 @@ This repository contains documentations of all modules in the zero library. Zero
 - [ResponseAssertion](./testing/response-assetion.md) class
 - [routing](./routing/routing.md) module
 - [testing](./testing/testing.md) module
+- [TokenPayload](./interfaces/token-payload.md) interface
+- [UpdateData](./interfaces/update-data.md) interface
 - [uploads](./uploads/uploads.md) module
+- [UserGroup](./interfaces/user-group.md) interface
+- [ZeroUser](./interfaces/zero-user.md) interface
