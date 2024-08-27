@@ -19,7 +19,7 @@ This repository contains documentations of all modules in the zero library. Zero
 - [HttpResponse](./http/http-response.md) class
 - [Paginator](./interfaces/paginator.md) interface
 - [QueryString](./request/query-string.md   ) class
-- [RequestData] interface
+- [RequestData](./interfaces/request-data.md) interface
 - [request](./request/request.md) module
 - [request-data](./request/request-data.md) module
 - [ResponseAssertion](./testing/response-assetion.md) class
