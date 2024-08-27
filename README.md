@@ -23,12 +23,15 @@ This repository contains documentations of all modules in the zero library. Zero
 - [request](./request/request.md) module
 - [request-data](./request/request-data.md) module
 - [ResponseAssertion](./testing/response-assetion.md) class
+- [RouterConfig](./interfaces/router-config.md) interface
 - [routing](./routing/routing.md) module
 - [testing](./testing/testing.md) module
 - [TokenPayload](./interfaces/token-payload.md) interface
 - [UpdateData](./interfaces/update-data.md) interface
 - [uploads](./uploads/uploads.md) module
+- [URLMetadata](./interfaces/url-metadata.md) interface
 - [UserGroup](./interfaces/user-group.md) interface
-- [ValidationOption](./interfaces/validation-option.md)
+- [ValidationOption](./interfaces/validation-option.md) interface
 - [Validator](./validation/validator.md) class
+- [Zero](./zero/zero.md) class
 - [ZeroUser](./interfaces/zero-user.md) interface
