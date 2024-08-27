@@ -17,4 +17,14 @@ import { GhostRouter } from 'zero/routing'
 
 The `GhostRouter` class implements the [`AppRouter`](../interfaces/app-router.md) interface.
 
+The class implements one method that should be overidden by it's subclass.
+
+### 1. `registerRoutes()`
+
+Parameters:
+* None
+
+Returns:
+* `Router` -  an object of the Express [Router](https://expressjs.com/en/guide/routing.html).
+
 
